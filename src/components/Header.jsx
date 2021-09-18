@@ -1,5 +1,5 @@
-import { useContext } from "react";
-import { ThemeContext } from "../App";
+impoer {useContext} from "react";
+import {ThemeContext} from "../App";
 
 const Header = () => {
   const { darkTheme, toggleTheme } = useContext(ThemeContext);
